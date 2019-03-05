@@ -22,6 +22,4 @@ public class Attack : MonoBehaviour
     {
         Destroy(GameObject.Instantiate(hitbox, hitboxOrigin.position, Quaternion.identity, transform.GetChild(0)), .4f);
     }
-
-
 }
